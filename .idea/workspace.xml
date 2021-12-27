@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="">
+    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="docs: README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/discovery/src/main/kotlin/com/pauloelienay/discovery/DiscoveryApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/discovery/src/main/kotlin/com/pauloelienay/discovery/DiscoveryApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/services/discovery/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +81,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -127,8 +126,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640629314096</updated>
-      <workItem from="1640629316865" duration="778000" />
+      <workItem from="1640629316865" duration="1424000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(gateway): implements">
+      <created>1640630291871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640630291871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="docs: README">
+      <created>1640630606466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640630606466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,5 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(gateway): implements" />
+    <MESSAGE value="docs: README" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: README" />
   </component>
 </project>
