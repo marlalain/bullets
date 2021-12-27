@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="docs: adds license and updates &quot;technologies used&quot;">
+    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="feat(docker): `mongodb` services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/gateway/src/main/kotlin/com/pauloelienay/gateway/GatewayApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/gateway/src/main/kotlin/com/pauloelienay/gateway/GatewayApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/messages/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/MessagesApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/MessagesApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/messages/src/test/kotlin/com/pauloelienay/messages/MessagesApplicationTests.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +81,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -93,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.DiscoveryApplication">
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pauloelienay.discovery.DiscoveryApplication" />
@@ -101,22 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pauloelienay.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="messages" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pauloelienay.gateway.*" />
+          <option name="PATTERN" value="com.pauloelienay.messages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pauloelienay.gateway.GatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pauloelienay.messages.MessagesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.MessagesApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640629314096</updated>
-      <workItem from="1640629316865" duration="5645000" />
+      <workItem from="1640629316865" duration="8726000" />
     </task>
     <task id="LOCAL-00001" summary="feat(gateway): implements">
       <created>1640630291871</created>
@@ -179,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640631368448</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chore(idea): inits `messages` service">
+      <created>1640635069189</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640635069189</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat(docker): `mongodb` services">
+      <created>1640635083537</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640635083538</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +234,8 @@
     <MESSAGE value="fix: moves gateway to kotlin" />
     <MESSAGE value="chore(idea): updates workspace" />
     <MESSAGE value="docs: adds license and updates &quot;technologies used&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: adds license and updates &quot;technologies used&quot;" />
+    <MESSAGE value="chore(idea): inits `messages` service" />
+    <MESSAGE value="feat(docker): `mongodb` services" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(docker): `mongodb` services" />
   </component>
 </project>

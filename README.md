@@ -7,10 +7,15 @@ Such as:
 - Spring Cloud Gateway
 - RabbitMQ
 - Keycloak
+- MongoDB
 
 ## How to use
 
-Soon
+Using docker-compose:
+
+```shell
+sudo docker-compose up -d
+```
 
 ## License
 

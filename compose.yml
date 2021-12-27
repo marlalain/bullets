@@ -20,3 +20,15 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://root:root@mongo:27017/
     depends_on:
       - mongo
+
+  rabbitmq:
+    image: rabbitmq:3
+    ports:
+      - "5672:5672"
+
+  rabbitmq-management:
+    image: rabbitmq:3-management
+    ports:
+      - "8082:15672"
+    depends_on:
+      - rabbitmq
