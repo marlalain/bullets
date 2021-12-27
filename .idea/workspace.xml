@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="docs: README">
+    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="chore(idea): updates workspace">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640629314096</updated>
-      <workItem from="1640629316865" duration="1424000" />
+      <workItem from="1640629316865" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="feat(gateway): implements">
       <created>1640630291871</created>
@@ -142,7 +143,28 @@
       <option name="project" value="LOCAL" />
       <updated>1640630606466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="docs: fixes README">
+      <created>1640630781871</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640630781871</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: moves gateway to kotlin">
+      <created>1640631000667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640631000667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore(idea): updates workspace">
+      <created>1640631008913</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640631008913</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +184,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(gateway): implements" />
     <MESSAGE value="docs: README" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: README" />
+    <MESSAGE value="docs: fixes README" />
+    <MESSAGE value="fix: moves gateway to kotlin" />
+    <MESSAGE value="chore(idea): updates workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(idea): updates workspace" />
   </component>
 </project>

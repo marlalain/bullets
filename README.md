@@ -6,6 +6,7 @@ Such as:
 - Eureka Discovery
 - Spring Cloud Gateway
 - RabbitMQ
+- Keycloak
 
 ## How to use
 
@@ -13,4 +14,4 @@ Soon
 
 ## License
 
-[LICENSE].
+[[LICENSE]].
