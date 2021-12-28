@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="feat(messages): implements rabbitmq">
+    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="feat(messages): downgrade, KISS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/sockets/WebSocketConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/sockets/WebSocketConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/message/MessageController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/message/MessageController.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,6 +271,7 @@
     <MESSAGE value="fix(messages/rabbitmq): fixes webflux errors" />
     <MESSAGE value="fix(messages): changes default port" />
     <MESSAGE value="feat(messages): implements rabbitmq" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(messages): implements rabbitmq" />
+    <MESSAGE value="feat(messages): downgrade, KISS" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(messages): downgrade, KISS" />
   </component>
 </project>
