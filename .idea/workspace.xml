@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="fix(messages/rabbitmq): fixes webflux errors">
+    <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="fix(messages): changes default port">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/sockets/WebSocketConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/sockets/WebSocketConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/messages/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +91,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.pauloelienay.messages.rabbit" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -143,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640629314096</updated>
       <workItem from="1640629316865" duration="8726000" />
-      <workItem from="1640672192173" duration="2624000" />
+      <workItem from="1640672192173" duration="4044000" />
     </task>
     <task id="LOCAL-00001" summary="feat(gateway): implements">
       <created>1640630291871</created>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640674668592</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix(messages): changes default port">
+      <created>1640674949866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1640674949866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +260,7 @@
     <MESSAGE value="feat(docker): `mongodb` services" />
     <MESSAGE value="chore(idea): inits `messages` (again)" />
     <MESSAGE value="fix(messages/rabbitmq): fixes webflux errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(messages/rabbitmq): fixes webflux errors" />
+    <MESSAGE value="fix(messages): changes default port" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(messages): changes default port" />
   </component>
 </project>
