@@ -21,6 +21,7 @@ class WebSocketConfig : WebSocketMessageBrokerConfigurer {
 
 	@Value("\${spring.rabbitmq.port}")
 	private lateinit var port: String
+
 	val relay = arrayOf("/topic/", "/queue/", "/exchange/")
 
 	override fun configureMessageBroker(registry: MessageBrokerRegistry) {
