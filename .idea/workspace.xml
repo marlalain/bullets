@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="70b298d3-45fd-4205-a892-8d0edf0a2bc6" name="Changes" comment="feat(docker): `mongodb` services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/gateway/src/main/kotlin/com/pauloelienay/gateway/GatewayApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/gateway/src/main/kotlin/com/pauloelienay/gateway/GatewayApplication.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/messages/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/MessagesApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/services/messages/src/main/kotlin/com/pauloelienay/messages/MessagesApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/messages/src/test/kotlin/com/pauloelienay/messages/MessagesApplicationTests.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,7 @@
     </file-type-list>
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="4" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -103,7 +100,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryApplication">
+  <component name="RunManager" selected="Spring Boot.MessagesApplication">
     <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="discovery" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pauloelienay.discovery.DiscoveryApplication" />
@@ -146,6 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640629314096</updated>
       <workItem from="1640629316865" duration="8726000" />
+      <workItem from="1640672192173" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="feat(gateway): implements">
       <created>1640630291871</created>
